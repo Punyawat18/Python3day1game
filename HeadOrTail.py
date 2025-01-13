@@ -1,5 +1,8 @@
-userchoice = input("Head or Tail")
+moregame = "Yes"
 
-print("You lose")
+while moregame == "Yes":
+    userchoice = input("Head or Tail")
 
-#Ha it rigged
+    print("You lose")
+    moregame = input("More? Yes or No")
+    #Ha it rigged
